@@ -1,0 +1,40 @@
+[
+    "index.md",
+    "overview.md",
+    [
+      "what/1.md",
+      {
+        "filename": "what/2.md",
+        "attr" : {
+          "data-background": "../images/Messier_74_by_HST.jpg"
+        }
+      },
+      "what/3.md",
+      "what/4.md",
+      "what/5.md",
+      "what/6.md"
+    ],
+    [ 
+      "coords/1.md",
+      "coords/2.md",
+      "coords/3.md",
+      "coords/4.md",
+      "coords/5.md"
+    ],
+    [
+      "data/1.md",
+      "data/2.md",
+      "data/3.md",
+      "data/4.md",
+      "data/5.md",
+      "data/6.md"
+    ],
+    [
+      "projections/1.md",
+      "projections/2.md",
+      "projections/3.md",
+      "projections/4.md",
+      "projections/5.md",
+      "projections/6.md"
+    ]
+]
