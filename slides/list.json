@@ -6,7 +6,7 @@
       {
         "filename": "what/2.md",
         "attr" : {
-          "data-background": "https://github.com/spatialcarpentry/basics-pres/blob/master/images/Messier_74_by_HST.jpg"
+          "data-background": "https://github.com/spatialcarpentry/basics-pres/blob/master/images/Messier_74_by_HST.jpg?raw=true"
         }
       },
       "what/3.md",
