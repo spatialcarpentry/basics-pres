@@ -20,7 +20,11 @@
       "what/6.md"
     ],
     [ 
-      "coords/1.md",
+    {
+      "filename": "coords/1.md",
+      "attr": {
+        "data-background": "https://github.com/spatialcarpentry/basics-pres/blob/maset/images/Saint-Helier_Marina_coordinates.JPG?raw=true"
+    },
       "coords/2.md",
       "coords/3.md",
       "coords/4.md",
@@ -47,5 +51,6 @@
       "projections/4.md",
       "projections/5.md",
       "projections/6.md"
-    ]
+    ],
+    "references.md"
 ]
