@@ -25,9 +25,15 @@
       "data/1.md",
       "data/2.md",
       "data/3.md",
+      {
+        "attr" : {
+          "data-background": "https://github.com/spatialcarpentry/basics-pres/blob/master/images/minecraft.jpg?raw=true"
+         }
+      },
       "data/4.md",
       "data/5.md",
-      "data/6.md"
+      "data/6.md",
+      "data/7.md"
     ],
     [
       "projections/1.md",
