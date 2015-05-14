@@ -1,5 +1,10 @@
-[
-    "index.md",
+[ 
+  {
+    "filename":  "index.md",
+    "attr": {
+      "data-background": "https://github.com/spatialcarpentry/basics-pres/blob/master/images/spatial-data.jpg?raw=true"
+    }
+  },
     "overview.md",
     [
       "what/1.md",
@@ -25,15 +30,15 @@
       "data/1.md",
       "data/2.md",
       "data/3.md",
+      "data/7.md",
+      "data/4.md",
+      "data/5.md",
       {
         "attr" : {
           "data-background": "https://github.com/spatialcarpentry/basics-pres/blob/master/images/minecraft.jpg?raw=true"
          }
       },
-      "data/4.md",
-      "data/5.md",
-      "data/6.md",
-      "data/7.md"
+      "data/6.md"
     ],
     [
       "projections/1.md",
