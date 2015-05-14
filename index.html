@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Reveal.js and Yeoman is Awesomeness</title>
+        <title>Spatial Data Basics</title>
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -13,7 +13,7 @@
 
         <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
     
-        <link rel="stylesheet" href="css/theme.css" id="theme">
+        <link rel="stylesheet" href="css/theme/night.css" id="theme">
     
 
         <!-- For syntax highlighting -->
@@ -217,8 +217,9 @@
                 history: true,
                 center: true,
 
-                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+                //theme: Reveal.getQueryHash().theme || 'white', // available themes are in /css/theme
+                theme: Reveal.getQueryHash().theme, 
+                transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
                 // Optional libraries used to extend on reveal.js
                 dependencies: [
