@@ -19,12 +19,13 @@
       "what/5.md",
       "what/6.md"
     ],
-    [ 
-    {
-      "filename": "coords/1.md",
-      "attr": {
-        "data-background": "https://github.com/spatialcarpentry/basics-pres/blob/maset/images/Saint-Helier_Marina_coordinates.JPG?raw=true"
-    },
+    [
+      {
+        "attr": {
+          "data-background":  "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Saint-H%C3%A9lier_-_Saint-Helier_Marina_coordinates.JPG/1280px-Saint-H%C3%A9lier_-_Saint-Helier_Marina_coordinates.JPG"
+        }
+      },
+      "coords/1.md",
       "coords/2.md",
       "coords/3.md",
       "coords/4.md",
