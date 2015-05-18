@@ -1,44 +1,57 @@
-[
-  "index.md",
-  "overview.md",
-  [ 
-    "janitor/1.md",
-    "janitor/2.md",
-    "janitor/3.md",
-    "janitor/4.md",
-    "janitor/5.md"
-  ],
-  [ 
-    "name/1.md",
-    "name/2.md",
-    "name/3.md",
-    "name/4.md",
-    "name/5.md"
-  ],
-  [ 
-    "simple/1.md",
-    "simple/2.md",
-    "simple/3.md",
-    "simple/4.md"
-  ],
-  [
-    "redundant/1.md",
-    "redundant/2.md",
-    "redundant/3.md",
-    "redundant/4.md"
-  ], 
-  [
-    "format/1.md",
-    "format/2.md",
-    "format/3.md"
-  ]
-
-
-
-
-
-
-
-
-
+[ 
+  {
+    "filename":  "index.md",
+    "attr": {
+      "data-background": "https://github.com/spatialcarpentry/basics-pres/blob/master/images/spatial-data.jpg?raw=true"
+    }
+  },
+    "overview.md",
+    [
+      "what/1.md",
+      {
+        "filename": "what/2.md",
+        "attr" : {
+          "data-background": "https://github.com/spatialcarpentry/basics-pres/blob/master/images/Messier_74_by_HST.jpg?raw=true"
+        }
+      },
+      "what/3.md",
+      "what/4.md",
+      "what/5.md",
+      "what/6.md"
+    ],
+    [
+      {
+        "attr": {
+          "data-background":  "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Saint-H%C3%A9lier_-_Saint-Helier_Marina_coordinates.JPG/1280px-Saint-H%C3%A9lier_-_Saint-Helier_Marina_coordinates.JPG"
+        }
+      },
+      "coords/1.md",
+      "coords/2.md",
+      "coords/3.md",
+      "coords/4.md",
+      "coords/5.md"
+    ],
+    [
+      "data/1.md",
+      "data/2.md",
+      "data/3.md",
+      "data/7.md",
+      "data/4.md",
+      "data/5.md",
+      {
+        "attr" : {
+          "data-background": "https://github.com/spatialcarpentry/basics-pres/blob/master/images/minecraft.jpg?raw=true"
+         }
+      },
+      "data/6.md"
+    ],
+    [
+      "projections/1.md",
+      "projections/2.md",
+      "projections/3.md",
+      "projections/4.md",
+      "projections/5.md",
+      "projections/6.md"
+    ],
+    "references.md"
 ]

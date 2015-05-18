@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Data Hygiene</title>
+        <title>Spatial Data Basics</title>
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -44,7 +44,7 @@
                 
                     
                         
-    <section data-markdown="slides/index.md"></section>
+    <section data-background="https://github.com/spatialcarpentry/basics-pres/blob/master/images/spatial-data.jpg?raw=true" data-markdown="slides/index.md"></section>
 
 
                     
@@ -63,27 +63,32 @@
                         <section>
                             
                                 
-    <section data-markdown="slides/janitor/1.md"></section>
+    <section data-markdown="slides/what/1.md"></section>
 
 
                             
                                 
-    <section data-markdown="slides/janitor/2.md"></section>
+    <section data-background="https://github.com/spatialcarpentry/basics-pres/blob/master/images/Messier_74_by_HST.jpg?raw=true" data-markdown="slides/what/2.md"></section>
 
 
                             
                                 
-    <section data-markdown="slides/janitor/3.md"></section>
+    <section data-markdown="slides/what/3.md"></section>
 
 
                             
                                 
-    <section data-markdown="slides/janitor/4.md"></section>
+    <section data-markdown="slides/what/4.md"></section>
 
 
                             
                                 
-    <section data-markdown="slides/janitor/5.md"></section>
+    <section data-markdown="slides/what/5.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/what/6.md"></section>
 
 
                             
@@ -95,27 +100,32 @@
                         <section>
                             
                                 
-    <section data-markdown="slides/name/1.md"></section>
+    <section data-background="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Saint-H%C3%A9lier_-_Saint-Helier_Marina_coordinates.JPG/1280px-Saint-H%C3%A9lier_-_Saint-Helier_Marina_coordinates.JPG" ></section>
 
 
                             
                                 
-    <section data-markdown="slides/name/2.md"></section>
+    <section data-markdown="slides/coords/1.md"></section>
 
 
                             
                                 
-    <section data-markdown="slides/name/3.md"></section>
+    <section data-markdown="slides/coords/2.md"></section>
 
 
                             
                                 
-    <section data-markdown="slides/name/4.md"></section>
+    <section data-markdown="slides/coords/3.md"></section>
 
 
                             
                                 
-    <section data-markdown="slides/name/5.md"></section>
+    <section data-markdown="slides/coords/4.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/coords/5.md"></section>
 
 
                             
@@ -127,22 +137,42 @@
                         <section>
                             
                                 
-    <section data-markdown="slides/simple/1.md"></section>
+    <section data-markdown="slides/data/1.md"></section>
 
 
                             
                                 
-    <section data-markdown="slides/simple/2.md"></section>
+    <section data-markdown="slides/data/2.md"></section>
 
 
                             
                                 
-    <section data-markdown="slides/simple/3.md"></section>
+    <section data-markdown="slides/data/3.md"></section>
 
 
                             
                                 
-    <section data-markdown="slides/simple/4.md"></section>
+    <section data-markdown="slides/data/7.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/data/4.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/data/5.md"></section>
+
+
+                            
+                                
+    <section data-background="https://github.com/spatialcarpentry/basics-pres/blob/master/images/minecraft.jpg?raw=true" ></section>
+
+
+                            
+                                
+    <section data-markdown="slides/data/6.md"></section>
 
 
                             
@@ -154,22 +184,32 @@
                         <section>
                             
                                 
-    <section data-markdown="slides/redundant/1.md"></section>
+    <section data-markdown="slides/projections/1.md"></section>
 
 
                             
                                 
-    <section data-markdown="slides/redundant/2.md"></section>
+    <section data-markdown="slides/projections/2.md"></section>
 
 
                             
                                 
-    <section data-markdown="slides/redundant/3.md"></section>
+    <section data-markdown="slides/projections/3.md"></section>
 
 
                             
                                 
-    <section data-markdown="slides/redundant/4.md"></section>
+    <section data-markdown="slides/projections/4.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/projections/5.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/projections/6.md"></section>
 
 
                             
@@ -177,25 +217,11 @@
                     
                 
                     
+                        
+    <section data-markdown="slides/references.md"></section>
+
+
                     
-                        <section>
-                            
-                                
-    <section data-markdown="slides/format/1.md"></section>
-
-
-                            
-                                
-    <section data-markdown="slides/format/2.md"></section>
-
-
-                            
-                                
-    <section data-markdown="slides/format/3.md"></section>
-
-
-                            
-                        </section>
                     
                 
             </div>
@@ -211,13 +237,11 @@
             Reveal.initialize({
                 controls: true,
                 progress: true,
-                history: false,
+                history: true,
                 center: true,
-                backgroundTransition: 'concave',
-                //parallaxBackgroundImage: "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg",
-                //parallaxBackgroundSize: "2100px 900px",
 
-                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                //theme: Reveal.getQueryHash().theme || 'white', // available themes are in /css/theme
+                theme: Reveal.getQueryHash().theme, 
                 transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
                 // Optional libraries used to extend on reveal.js

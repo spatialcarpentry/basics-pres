@@ -1,11 +1,8 @@
-## Overview 
+## Overview
 
 ----
 
-  - cleaning is cool
-  - what's in a name
-  - keeping it simple
-  - don't repeat yourself
-  - formatting
-
-
+  - What is spatial?
+  - Spatial Data
+  - Mapping the world
+  - Projections
