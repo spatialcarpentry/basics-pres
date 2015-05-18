@@ -2,7 +2,7 @@
   {
     "filename":  "index.md",
     "attr": {
-      "data-background": "http://www.storm-is-brewing.com/img/bootcamp/spatial-data.jpg"
+      "data-background": "http://storm-is-brewing.com/img/bootcamp/spatial-data.jpg"
     }
   },
     "overview.md",
@@ -11,7 +11,7 @@
       {
         "filename": "what/2.md",
         "attr" : {
-          "data-background": "http://www.storm-is-brewing.com/img/bootcamp/Messier_74_by_HST.jpg"
+          "data-background": "http://storm-is-brewing.com/img/bootcamp/Messier_74_by_HST.jpg"
         }
       },
       "what/3.md",
@@ -22,7 +22,7 @@
     [
       {
         "attr": {
-          "data-background":  "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Saint-H%C3%A9lier_-_Saint-Helier_Marina_coordinates.JPG/1280px-Saint-H%C3%A9lier_-_Saint-Helier_Marina_coordinates.JPG"
+          "data-background":  "http://storm-is-brewing.com/img/bootcamp/coordinates.JPG"
         }
       },
       "coords/1.md",
@@ -40,7 +40,7 @@
       "data/5.md",
       {
         "attr" : {
-          "data-background": "http://www.storm-is-brewing.com/img/bootcamp/minecraft.jpg"
+          "data-background": "http://storm-is-brewing.com/img/bootcamp/minecraft.jpg"
          }
       },
       "data/6.md"
