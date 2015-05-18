@@ -26,6 +26,7 @@
         }
       },
       "coords/1.md",
+      "coords/6.md",
       "coords/2.md",
       "coords/3.md",
       "coords/4.md",
@@ -34,7 +35,10 @@
     [
       "data/1.md",
       "data/2.md",
+      "data/9.md",
+      "data/11.md",
       "data/3.md",
+      "data/10.md",
       "data/7.md",
       "data/4.md",
       "data/5.md",
@@ -43,7 +47,8 @@
           "data-background": "http://storm-is-brewing.com/img/bootcamp/minecraft.jpg"
          }
       },
-      "data/6.md"
+      "data/6.md",
+      "data/8.md"
     ],
     [
       "projections/1.md",
